@@ -16,7 +16,6 @@ export class TopBarComponent implements OnInit {
   }
 
   getItemCount() {
-    console.log("count " + this.cartService.getItems().length);
     return this.cartService.getItems().length;
   }
 }
